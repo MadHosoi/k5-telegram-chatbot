@@ -1,0 +1,4 @@
+applications:
+ - name: cnets_spain_samplebot
+memory: 64M
+command: node main.js

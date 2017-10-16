@@ -1,0 +1,27 @@
+{
+  "name": "nlp",
+  "version": "1.0.0",
+  "description": "NLP OuterAPI with Cloud Foundry",
+  "main": "main.js",
+
+  "keywords": [
+    "NLP",
+    "API",
+    "NodeJS"
+  ],
+  "author": "miguelangel.diego@ts.fujitsu.com",
+  "license": "ISC",
+  "dependencies": { 
+    "cfenv": "^1.0.4",
+    "express": "^4.16.2",
+    "pug": "^2.0.0-rc.4",
+    "telegraf": "^3.14.0",
+    "request": "^2.83.0"
+    },
+	"engines": { 
+    "node": "6.3.0" 
+    },
+  "scripts": {
+    "start": "node main.js"
+  }
+}
